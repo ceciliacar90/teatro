@@ -34,7 +34,7 @@ section {
 }
 
 section h2.section-heading {
-  font-size: 40px;
+  font-size: 35px;
   margin-top: 0;
   margin-bottom: 15px;
 }
@@ -694,3 +694,6 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 
+.font-mio {
+  font-family: 'Indie Flower', cursive;
+}
