@@ -2,6 +2,10 @@
 <html lang="It">
 
   <head>
+
+    <title>Bootstrap-session-timeout - Countdown Timer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -72,6 +76,29 @@
           <div class="intro-heading text-uppercase">
             <h1 class="font-mio">Compagnia Teatrale Fatti d'Arte</h1>
           </div>
+
+
+              <!-- Cool Facts Section -->
+    <section id="cool-facts" class="section" data-vide-bg="assets/video/Team-Work" data-vide-options="position: 0% 50%">
+      <!-- Container Starts -->
+   
+          <h1 class="section-title wow fadeInUpQuick text-center">
+            COSA ABBIAMO FATTO
+          </h1>
+          <p class="section-subcontent">per capire ndo sto</p>
+
+<div id="countdown">
+  <div id='tiles'></div>
+  <div class="labels">
+    <li>Days</li>
+    <li>Hours</li>
+    <li>Mins</li>
+    <li>Secs</li>
+  </div>
+</div>
+    </section>
+    <!-- Cool Facts Section End -->
+
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#contact">Contattaci</a>
         </div>
       </div>
@@ -804,6 +831,57 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script type="text/javascript">
+      //CounterUp
+      $(document).ready(function( $ ) {
+          $('.counter').counterUp({
+              delay: 1,
+              time: 5800
+          });
+      });
+
+
+      
+
+      var target_date = new Date().getTime() + (1000*3600*48); // set the countdown date
+var days, hours, minutes, seconds; // variables for time units
+
+var countdown = document.getElementById("tiles"); // get tag element
+
+getCountdown();
+
+setInterval(function () { getCountdown(); }, 1000);
+
+function getCountdown(){
+
+  // find the amount of "seconds" between now and target
+  var current_date = new Date().getTime();
+  var seconds_left = (target_date - current_date) / 1000;
+
+  days = pad( parseInt(seconds_left / 86400) );
+  seconds_left = seconds_left % 86400;
+     
+  hours = pad( parseInt(seconds_left / 3600) );
+  seconds_left = seconds_left % 3600;
+      
+  minutes = pad( parseInt(seconds_left / 60) );
+  seconds = pad( parseInt( seconds_left % 60 ) );
+
+  // format countdown string + set tag value
+  countdown.innerHTML = "<span>" + days + "</span><span>" + hours + "</span><span>" + minutes + "</span><span>" + seconds + "</span>"; 
+}
+
+function pad(n) {
+  return (n < 10 ? '0' : '') + n;
+}
+
+    </script>
+
+
+
+
+
 
   </body>
 
