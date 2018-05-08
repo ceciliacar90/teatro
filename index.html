@@ -85,17 +85,43 @@
           <h1 class="section-title wow fadeInUpQuick text-center">
             COSA ABBIAMO FATTO
           </h1>
-          <p class="section-subcontent">per capire ndo sto</p>
+         
+    </section>
 
-<div id="countdown">
-  <div id='tiles'></div>
-  <div class="labels">
-    <li>Days</li>
-    <li>Hours</li>
-    <li>Mins</li>
-    <li>Secs</li>
-  </div>
-</div>
+
+        <section class="funfacts" data-stellar-background-ratio="0.4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="funfact">
+              <div class="st-funfact-icon"><i class="fa fa-briefcase"></i></div>
+              <div class="st-funfact-counter" ><span class="st-ff-count" data-from="0" data-to="25964" data-runit="1">0</span>+</div>
+              <strong class="funfact-title">Caffè bevuti</strong>
+            </div><!-- .funfact -->
+          </div>
+          <div class="col-md-3">
+            <div class="funfact">
+              <div class="st-funfact-icon"><i class="fa fa-clock-o"></i></div>
+              <div class="st-funfact-counter" ><span class="st-ff-count" data-from="0" data-to="35469" data-runit="1">0</span>+</div>
+              <strong class="funfact-title">Sonno perso</strong>
+            </div><!-- .funfact -->
+          </div>
+          <div class="col-md-3">
+            <div class="funfact">
+              <div class="st-funfact-icon"><i class="fa fa-send"></i></div>
+              <div class="st-funfact-counter" ><span class="st-ff-count" data-from="0" data-to="86214" data-runit="1">0</span>+</div>
+              <strong class="funfact-title">E-mail</strong>
+            </div><!-- .funfact -->
+          </div>
+          <div class="col-md-3">
+            <div class="funfact">
+              <div class="st-funfact-icon"><i class="fa fa-magic"></i></div>
+              <div class="st-funfact-counter" ><span class="st-ff-count" data-from="0" data-to="3647" data-runit="1">0</span>+</div>
+              <strong class="funfact-title">Lavori completati</strong>
+            </div><!-- .funfact -->
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Cool Facts Section End -->
 
@@ -840,44 +866,19 @@
               time: 5800
           });
       });
+   </script>
 
-
-      
-
-      var target_date = new Date().getTime() + (1000*3600*48); // set the countdown date
-var days, hours, minutes, seconds; // variables for time units
-
-var countdown = document.getElementById("tiles"); // get tag element
-
-getCountdown();
-
-setInterval(function () { getCountdown(); }, 1000);
-
-function getCountdown(){
-
-  // find the amount of "seconds" between now and target
-  var current_date = new Date().getTime();
-  var seconds_left = (target_date - current_date) / 1000;
-
-  days = pad( parseInt(seconds_left / 86400) );
-  seconds_left = seconds_left % 86400;
+<script src="js/jquery.min.js"></script>
+       
+            <script src="js/jquery.stellar.js"></script>
+    <script src="js/jquery.appear.js"></script>
+      <script src="js/jquery.nicescroll.min.js"></script>
+        <script src="js/jquery.countTo.js"></script>
+   
      
-  hours = pad( parseInt(seconds_left / 3600) );
-  seconds_left = seconds_left % 3600;
-      
-  minutes = pad( parseInt(seconds_left / 60) );
-  seconds = pad( parseInt( seconds_left % 60 ) );
-
-  // format countdown string + set tag value
-  countdown.innerHTML = "<span>" + days + "</span><span>" + hours + "</span><span>" + minutes + "</span><span>" + seconds + "</span>"; 
-}
-
-function pad(n) {
-  return (n < 10 ? '0' : '') + n;
-}
-
-    </script>
-
+  
+ 
+      <script src="js/script.js"></script>
 
 
 
