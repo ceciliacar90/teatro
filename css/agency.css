@@ -50,7 +50,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 60px 0;
   }
 }
 
@@ -695,7 +695,13 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 
 .font-mio {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Indie Flower';
+}
+
+.font-mio2 {
+  font-family: 'Indie Flower'; 
+  font-size: 25px;
+  font-style: cursive;
 }
 
 
@@ -704,7 +710,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 
 .funfacts {
-  background-image: url(../images/funfact4.png);
+  background-image: ;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
@@ -716,8 +722,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   color: #fff;
 }
 .funfacts .funfact .st-funfact-icon {
-  font-size: 42px;
-  line-height: 90px;
+  font-size: 0px;
+  line-height: 30px;
 }
 .funfacts .funfact .st-funfact-counter {
   font-size: 48px;
