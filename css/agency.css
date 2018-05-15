@@ -695,6 +695,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 
 .font-mio {
+
   font-family: 'Indie Flower';
 }
 
@@ -702,6 +703,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   font-family: 'Indie Flower'; 
   font-size: 25px;
   font-style: cursive;
+  font-family: 'Indie Flower', cursive;
+
 }
 
 
@@ -710,7 +713,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 
 .funfacts {
-  background-image: ;
+  background-image: url(../images/funfact4.png);
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
@@ -748,6 +751,4 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 @media (min-width: 768px) and (max-width: 1024px) {
   .section-title {
     font-size: 40px;
-
-
-
+}}

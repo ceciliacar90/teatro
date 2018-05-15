@@ -1,3 +1,4 @@
+
 $(function () {
 
 	$(window).stellar({
@@ -217,4 +218,5 @@ $(window).load(function () {
 		$('label.btn-main').removeClass('btn-main');
 		$('input[name="filter"]:checked').parent().addClass('btn-main');
 	});
+
 });
