@@ -180,9 +180,9 @@ header.masthead {
 
 
 .bgimg {
-
   background-image: url("../img/header-bg.jpg");
-  background-position: center; 
+  height: relative;
+  background-position: center;
   background-size: cover;
   position: relative;
   color: white;
@@ -190,18 +190,16 @@ header.masthead {
   font-size: 25px;
 }
 
-/* Position text in the middle */
+
+
 .middle {
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
 
-
-
-/* Style the <hr> element */
 hr {
   margin: auto;
   width: 40%;
