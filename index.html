@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Spettacoli ad Aprile. Spettacoli di William Shakespeare. Laboratori teatrali. I nostri contatti: mettere i contatti e in caso allargare il contenuto">
     <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -222,8 +223,11 @@ img {
               <a class="nav-link js-scroll-trigger" href="#about">Riconoscimenti</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#news">News</a>
+              <a class="nav-link js-scroll-trigger" href="#Laboratori">Laboratori</a>
             </li>
+             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#news">News</a>
+             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#team">Team</a>
             </li>
@@ -263,28 +267,28 @@ img {
           <div class="col-md-3">
             <div class="funfact">
               <div class="st-funfact-icon"><i class="fa fa-briefcase"></i></div>
-              <div class="st-funfact-counter" ><span class="st-ff-count" data-from="0" data-to="25964" data-runit="1">0</span>+</div>
+              <div class="st-funfact-counter" ><span class="st-ff-count" data-from="0" data-to="25964" data-runit="1">0</span><img src="img/icona-del-caffè-37020141.png" alt="" width="150" height="150"></div>
               <strong class="funfact-title">Caffè bevuti</strong>
             </div><!-- .funfact -->
           </div>
           <div class="col-md-3">
             <div class="funfact">
               <div class="st-funfact-icon"><i class="fa fa-clock-o"></i></div>
-              <div class="st-funfact-counter" ><span class="st-ff-count" data-from="0" data-to="35469" data-runit="1">0</span>+</div>
+              <div class="st-funfact-counter" ><span class="st-ff-count" data-from="0" data-to="35469" data-runit="1">0</span><img src="img/zzz.png" alt="" width="150" height="150"></div>
               <strong class="funfact-title">Sonno perso</strong>
             </div><!-- .funfact -->
           </div>
           <div class="col-md-3">
             <div class="funfact">
               <div class="st-funfact-icon"><i class="fa fa-send"></i></div>
-              <div class="st-funfact-counter" ><span class="st-ff-count" data-from="0" data-to="86214" data-runit="1">0</span>+</div>
+              <div class="st-funfact-counter" ><span class="st-ff-count" data-from="0" data-to="86214" data-runit="1">0</span><img src="img/icona-mail.png" alt="" width="150" height="150"></div>
               <strong class="funfact-title">E-mail</strong>
             </div><!-- .funfact -->
           </div>
           <div class="col-md-3">
             <div class="funfact">
               <div class="st-funfact-icon"><i class="fa fa-magic"></i></div>
-              <div class="st-funfact-counter" ><span class="st-ff-count" data-from="0" data-to="3647" data-runit="1">0</span>+</div>
+              <div class="st-funfact-counter" ><span class="st-ff-count" data-from="0" data-to="3647" data-runit="1">0</span><img  src="img/ingranaggi.png" alt="" width="150" height="150"></div>
               <strong class="funfact-title">Lavori completati</strong>
             </div><!-- .funfact -->
           </div>
@@ -530,8 +534,8 @@ img {
       </div>
     </section>
 
-<!-- News -->
-    <section id="news">
+<!-- Laboratori -->
+    <section id="Laboratori">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -587,6 +591,25 @@ img {
         </div>
       </div>
     </section>
+
+    <!-- News -->
+    
+     <section id="news">
+        <div class="container">
+            <div class="bgimg">
+              <div class="topleft">
+                <p>Logo</p>
+              </div>
+            <div class="middle">
+              <h1>COMING SOON</h1>
+              <p id="demo"></p>
+            </div>
+            <div class="bottomleft">
+              <p>Some text</p>
+            </div>
+          </div>
+        </div>
+     </section>
 
 
 
@@ -815,7 +838,6 @@ img {
                   <p class="item-intro text-muted">Suggestioni di luci e colori, costumi raffinati, un cast di giovani interpreti per una sfarzosa commedia romantica tratta da W. Shakespeare. Lo scontro tra seduzione e castità e il potere travolgente dell’amore; il gioco linguistico e retorico, la comicità di vivaci dialoghi serrati, lo scintillio dell’intelligenza contrapposto alla pedanteria ridicola e all’ignoranza, sono i temi di quest’opera.</p>
 
                      <div class="container">
-
                           <!-- gallery pene -->
                           <div class="mySlides1">
                             <div class="numbertext">1 / 3</div>
@@ -1776,6 +1798,39 @@ img {
           captionText.innerHTML = dots[slideIndex-1].alt;
         }
         </script>
+
+          <!-- script countdown -->
+        <script>
+          // Set the date we're counting down to
+          var countDownDate = new Date("Marzo 23, 2019 20:30:00").getTime();
+
+          // Update the count down every 1 second
+          var x = setInterval(function() {
+
+            // Get todays date and time
+            var now = new Date().getTime();
+              
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+              
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+              
+            // Output the result in an element with id="demo"
+            document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+            + minutes + "m " + seconds + "s ";
+              
+            // If the count down is over, write some text 
+            if (distance < 0) {
+              clearInterval(x);
+              document.getElementById("demo").innerHTML = "TERMINATO";
+            }
+          }, 1000);
+         </script>
+
 
 
 
