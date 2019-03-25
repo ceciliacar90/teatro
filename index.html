@@ -207,7 +207,7 @@ img {
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top justify-content-relative" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
-          <h2 class="font-mio">sto provando</h2>
+          <h2 class="font-mio">Fatti d'Arte</h2>
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
@@ -617,14 +617,21 @@ img {
     
      <section id="news">
         <div class="container">
+            
+            
             <div class="bgimg">
               <div class="text-center">
                 <h1>COMING SOON</h1>
                 <hr>
+                <!-- standby
                 <p calss="text-center"> titolo dell'evento <p>
                 <p id="demo"></p>
+                end standby-->
+
+                <div id="charging" class="fa"></div>
+               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
               </div>
-            </div>
+            </div>       
         </div>
      </section>
 
@@ -2001,7 +2008,28 @@ img {
          <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v3.2"></script>
 
-
+        <!-- script clessidra -->
+        <script>
+          function chargebattery() {
+            var a;
+            a = document.getElementById("charging");
+            a.innerHTML = "&#xf244;";
+            setTimeout(function () {
+              a.innerHTML = "&#xf243;";
+            }, 1000);
+            setTimeout(function () {
+              a.innerHTML = "&#xf242;";
+            }, 2000);
+            setTimeout(function () {
+              a.innerHTML = "&#xf241;";
+            }, 3000);
+            setTimeout(function () {
+              a.innerHTML = "&#xf240;";
+            }, 4000);
+          }
+          chargebattery();
+          setInterval(chargebattery, 5000);
+        </script> 
 
   </body>
 
