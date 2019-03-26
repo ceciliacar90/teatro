@@ -29,6 +29,15 @@ h6 {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.frase {
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 20px;
+  text-transform: none;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+} 
+
 section {
   padding: 100px 0;
 }
