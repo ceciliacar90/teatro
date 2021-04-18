@@ -38,7 +38,13 @@ h4 {
   color: black;
 }
 
-h5,
+h5 {
+  font-weight: 100%;
+  text-align: center;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+}
+
 h6 {
   font-weight: 700;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -745,8 +751,9 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 }
 
-
-
+.padding-start{
+  padding-left: 0px!important;
+}
 
 
 
@@ -775,7 +782,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   font-size: 20px;
   line-height: 40px;
   letter-spacing: 1px;
-  font-weight: 300;
+  font-weight: 150;
 }
 .funfacts .funfact:after {
   content: '';
