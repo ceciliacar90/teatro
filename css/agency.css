@@ -99,6 +99,11 @@ section h3.section-subheading {
   border-color: #fed136;
 }
 
+.btn-primary-instagram {
+  background-color: #4267B2;
+  border-color: #4267B2;
+}
+
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   background-color: #fec810 !important;
   border-color: #fec810 !important;
@@ -736,6 +741,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
 }
+
 
 
 .font-mio {
