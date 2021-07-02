@@ -202,10 +202,10 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/header2.jpg");
   background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
+  background-attachment: fixed;
+  background-position: center right;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -215,7 +215,7 @@ header.masthead {
 
 
 .bgimg {
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/header2.jpg");
   height: relative;
   background-position: center;
   background-size: cover;
