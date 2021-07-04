@@ -758,14 +758,14 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .font-mio {
 
-  font-family: 'Indie Flower';
+  font-family: 'Helvetica';
 }
 
 .font-mio2 {
-  font-family: 'Indie Flower'; 
+  font-family: 'Helvetica'; 
   font-size: 25px;
-  font-style: cursive;
-  font-family: 'Indie Flower', cursive;
+  font-style: oblique;
+  font-family: 'Helvetica', oblique;
 
 }
 
